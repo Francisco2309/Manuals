@@ -1,0 +1,15 @@
+h1{
+	font-size: 50px;
+	font-family: Impact;
+}
+.header{
+	height: 100;
+	background-position: center;
+	background-image: url(https://uploads-ssl.webflow.com/60aea4e5ac6df63edce0b8b4/6171fda6b62c984e33fa7d3a_Autoseguro-Crabi-Blog-Cat-Reparacion-de-Automoviles.jpg);
+}
+.manual{
+	position: fixed;
+	top: 18%;
+	right: 15%;
+	size: landscape;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Novam</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+	<!-- ESTILOS -->
+	<link rel="stylesheet" href="../CSS/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<!-- SCRIPTS JS-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="peticion.js"></script>
+	<style type="text/css">
+		.boton_1{
+			text-decoration: none;
+			padding: 3px;
+			padding-left: 15px;
+			padding-right: 15px;
+			color: dark;
+			background-color: #76FF03;
+			font-size: 15px;
+			border-radius: 15px;
+		}
+		.boton_1:hover{
+			opacity: 0.6;
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+
+	
+
+	<center>
+		<br> 
+		<header class="header">
+			<br>
+			<h1 class="text-white" style="font-family: impact; font-size: 50px;">Buscador</h1>
+			<br><br>
+		</header>
+	</center>
+	<br><br>
+	<div class="container">
+		<a href="../Registrar_Manual.php" class="boton_1 text-dark" style="z-index:; top: 30%;"><i class="fas fa-arrow-left"> Volver</i></a>
+	</div>
+
+
+	<center>
+
+		<br><br>
+
+
+		<section>
+			<div class="w-25 p-9">
+				<input type="text" name="busqueda" id="busqueda" class="form-control" placeholder="Buscar..." style=" border-radius: 15px; border-color: black;">
+			</div>
+		</section>
+		<br><br>
+		<section id="tabla_resultado">
+			<!-- AQUI SE DESPLEGARA NUESTRA TABLA DE CONSULTA -->
+		</section>
+	</center>
+</body>
+</html>
+
+
